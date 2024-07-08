@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nebsia | Software Company</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Nebsia</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+        <video autoplay muted loop class="background-video">
+            <source src="assets/171942-846113545_small.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+        <div class="home-content">
+            <h1>Welcome to Nebsia</h1>
+            <p>We provide top-notch software solutions.</p>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <img src="assets/web-developer.gif" alt="Web Development">
+                <h3>Web Development</h3>
+                <p>Building responsive and engaging websites.</p>
+            </div>
+            <div class="service-card">
+                <img src="assets/coding.gif" alt="Software Development">
+                <h3>Software Development</h3>
+                <p>Creating robust software solutions.</p>
+            </div>
+            <div class="service-card">
+                <img src="assets/idea.gif" alt="App Development">
+                <h3>App Development</h3>
+                <p>Developing user-friendly mobile applications.</p>
+            </div>
+            <div class="service-card">
+                <img src="assets/ux-design.gif" alt="UI/UX Design">
+                <h3>UI/UX Design</h3>
+                <p>Designing intuitive user interfaces.</p>
+            </div>
+            <div class="service-card">
+                <img src="assets/logo-design.gif" alt="Logo Design">
+                <h3>Logo Design</h3>
+                <p>Creating unique and memorable logos.</p>
+            </div>
+            <div class="service-card">
+                <img src="assets/artificial-intelligence.gif" alt="Data Science & ML">
+                <h3>Data Science & ML</h3>
+                <p>Harnessing data to drive insights.</p>
+            </div>
+            <div class="service-card">
+                <img src="assets/smart-house.gif" alt="IoT">
+                <h3>IoT</h3>
+                <p>Connecting devices for smarter solutions.</p>
+            </div>
+            <div class="service-card">
+                <img src="assets/blockchain.gif" alt="Blockchain">
+                <h3>Blockchain</h3>
+                <p>Implementing secure blockchain technologies.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Nebsia is a leading software company dedicated to providing comprehensive solutions in web development,
+            software development, app development, UI/UX design, logo design, data science & ML, IoT, and
+            blockchain. Our mission is to empower businesses with cutting-edge technology and innovative solutions.
+            With a team of skilled professionals, we strive to deliver high-quality services tailored to meet the
+            unique needs of each client. At Nebsia, we are committed to driving digital transformation and helping
+            our clients achieve their goals.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <textarea id="message" placeholder="Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Nebsia. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script type="module" src="firebase-config.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
